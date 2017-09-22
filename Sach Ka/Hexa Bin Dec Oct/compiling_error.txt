@@ -1,0 +1,83 @@
+A:\S\C\Sach Ka\Hexa Bin Dec Oct\Hexa Bin Dec Oct.c:9:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main()
+ ^
+A:\S\C\Sach Ka\Hexa Bin Dec Oct\Hexa Bin Dec Oct.c: In function 'main':
+A:\S\C\Sach Ka\Hexa Bin Dec Oct\Hexa Bin Dec Oct.c:16:2: warning: implicit declaration of function 'clrscr' [-Wimplicit-function-declaration]
+  clrscr();
+  ^
+A:\S\C\Sach Ka\Hexa Bin Dec Oct\Hexa Bin Dec Oct.c:66:2: warning: implicit declaration of function 'gotoxy' [-Wimplicit-function-declaration]
+  gotoxy(15,10);printf("Press r to start again");
+  ^
+A:\S\C\Sach Ka\Hexa Bin Dec Oct\Hexa Bin Dec Oct.c:67:10: warning: implicit declaration of function 'getch' [-Wimplicit-function-declaration]
+  restart=getch();
+          ^
+A:\S\C\Sach Ka\Hexa Bin Dec Oct\Hexa Bin Dec Oct.c: In function 'bd':
+A:\S\C\Sach Ka\Hexa Bin Dec Oct\Hexa Bin Dec Oct.c:102:58: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+   {gotoxy (10,3);printf("Not Binary number Input again");delay(800);clrscr();goto AA;}
+                                                          ^
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x47): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0xd3): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x145): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x17b): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1ed): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x223): more undefined references to `clrscr' follow
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x357): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x378): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x391): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x417): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x4d4): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x4ec): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x4f1): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x555): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x629): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x82a): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x842): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x847): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x8be): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x8d6): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x8db): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x96e): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0xab4): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0xb99): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0xbb1): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0xbb6): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0xc69): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0xd1f): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0xe5f): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0xf0a): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1156): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x116e): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x11a2): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x12d3): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1410): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x14c9): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x17c3): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x17db): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x17e0): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1830): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1a54): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1d4e): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1d66): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1d6b): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1e6a): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x1ef0): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x21ea): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2202): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2207): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x23f9): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x24e6): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2607): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x261f): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2624): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2748): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x281d): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2929): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2941): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2946): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x297a): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2a19): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2b3a): undefined reference to `gotoxy'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2b52): undefined reference to `delay'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2b57): undefined reference to `clrscr'
+C:\Users\yinma\AppData\Local\Temp\ccjb2Ypo.o:Hexa Bin Dec Oct.c:(.text+0x2db4): undefined reference to `gotoxy'
+collect2.exe: error: ld returned 1 exit status

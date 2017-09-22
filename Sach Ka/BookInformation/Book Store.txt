@@ -1,0 +1,6 @@
+
+1/ Book's name: yinmazatin		 Book's code: 12		Book's price : 1234.00
+
+1/ Book's name: yinmarady		 Book's code: 1234		Book's price : 22000.00
+
+2/ Book's name: yinsong		 Book's code: 4545		Book's price : 234.00

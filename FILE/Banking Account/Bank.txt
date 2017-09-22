@@ -1,0 +1,4 @@
+1/. Customer's name : yinmazatin		ID : 1234		Age : 11	Money : 22.000000
+
+2/. Customer's name : yinmarady		ID : 11		Age : 55	Money : 66.000000
+
